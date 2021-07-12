@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Zen Loop', cursive;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    height: 100vh;
+}
+.header__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header__img img {
+    width: 200px;
+    padding: 25px;
+}
+.header__menu {
+    padding: 25px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.header__menu p {
+    margin-left: 10px;
+}
+.header__menu ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    width: 100px;
+    position: absolute;
+    margin: 23px 0 0 -100px;
+    text-align: right;
+}
+.header__menu:hover ul, ul :hover {
+    display: block;
+}
+.header__menu li {
+    margin: 10px 0;
+}
+.header__menu li a {
+    text-decoration: none;
+    color: white;
+}
+.header__menu li a:hover {
+    text-decoration: underline;
+}
