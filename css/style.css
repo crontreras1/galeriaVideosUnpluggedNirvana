@@ -159,6 +159,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    box-shadow: 0 0 20px 6px white;
 }
 .login__container--form {
     display: flex;
@@ -236,6 +237,17 @@ text-decoration: underline;
     font-size: 20px;
 }
 .footer a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.iniciar-sesion {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.iniciar-sesion:hover {
     text-decoration: underline;
     font-weight: bold;
 }
